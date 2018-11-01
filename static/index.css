@@ -2,18 +2,108 @@ ul {
     list-style-type: none;
 }
 
-li {
+.header li {
     float: right;
     padding: 16px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #000;
 }
 
-li:first-child{
+.header li:first-child{
     background: rgb(134, 13, 13);
     color: rgb(248, 245, 245);
     border-radius: 50%;
 }
+
+.google{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#bluesh {
+    color: rgb(88, 88, 189);
+}
+
+#redish {
+    color: rgb(201, 45, 45);
+}
+
+#yellowish {
+    color: rgb(221, 221, 54);
+}
+
+#greenish {
+    color: rgb(40, 153, 40);
+}
+
+input[type='search']{
+    width: 40%;
+    height: 45px;
+    border-radius: 50px;
+    background: rgb(206, 205, 205);
+    border: none;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+input[type='submit']{
+    height: 25px;
+}
+
+p a {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .footer{
+     width: 100%;
+     height: 100px;
+     background: rgb(206, 205, 205);
+     margin-top: 100px;
+ }
+
+ .footer a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ .footer li {
+     float: left;
+     padding: 9px;
+ }
+
+ .footer li{
+     float: right;
+ }
+
+ .footer li:last-child{
+     float: left;
+ }
+
+ .footer p {
+     margin-left: 50px;
+     font-family: 'Times New Roman', Times, serif;
+ }
